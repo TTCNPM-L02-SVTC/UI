@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="MenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.Controller">
+   <children>
+      <Pane fx:id="pnlOverview" layoutX="10.0" layoutY="10.0" prefHeight="552.0" prefWidth="770.0">
+         <children>
+            <VBox prefHeight="552.0" prefWidth="779.0">
+               <children>
+                  <HBox prefHeight="77.0" prefWidth="830.0">
+                     <children>
+                        <Pane fx:id="pnlMenus1" prefHeight="75.0" prefWidth="810.0">
+                           <children>
+                              <Label layoutX="364.0" prefHeight="78.0" prefWidth="82.0" text="ABOUT" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <GridPane prefHeight="475.0" prefWidth="779.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="241.39998474121094" minHeight="10.0" prefHeight="221.39998474121094" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="302.4" minHeight="0.0" prefHeight="223.00001525878903" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="275.99997558593753" minHeight="10.0" prefHeight="30.4000244140625" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Pane prefHeight="276.0" prefWidth="390.0">
+                                 <children>
+                                    <ImageView fitHeight="149.0" fitWidth="187.0" layoutX="102.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../images/received_271553216991518.jpeg" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHAN THANH TRUONG" textAlignment="CENTER" wrappingWidth="374.9366874694824">
+                                       <font>
+                                          <Font size="29.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                           <children>
+                              <Pane prefHeight="276.0" prefWidth="390.0">
+                                 <children>
+                                    <ImageView fitHeight="140.0" fitWidth="187.0" layoutX="102.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../images/received_1156668417818908.jpeg" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOM NGUYEN" textAlignment="CENTER" wrappingWidth="374.9366874694824">
+                                       <font>
+                                          <Font size="29.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+                           <children>
+                              <Pane prefHeight="276.0" prefWidth="390.0">
+                                 <children>
+                                    <ImageView fitHeight="140.0" fitWidth="187.0" layoutX="102.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../images/FB_IMG_1540201937789.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHAM QUOC TRUNG" textAlignment="CENTER" wrappingWidth="374.9366874694824">
+                                       <font>
+                                          <Font size="29.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <Pane prefHeight="276.0" prefWidth="390.0">
+                                 <children>
+                                    <ImageView fitHeight="140.0" fitWidth="187.0" layoutX="102.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../images/IMG_20190218_011241.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Text layoutX="8.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NGUYEN LAM TRUONG" textAlignment="CENTER" wrappingWidth="374.9366874694824">
+                                       <font>
+                                          <Font size="29.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+   <effect>
+      <DropShadow color="#1b1eeb" />
+   </effect>
+</AnchorPane>
